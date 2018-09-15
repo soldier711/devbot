@@ -122,7 +122,7 @@ class Client {
     const bot = storage.bot
     if (this.configOverrides && this.configOverrides.setPresence === true) {
       if (config.bot.activityType) {
-        bot.user.setActivity(config.bot.activityName, { type: config.bot.activityType, url: config.bot.streamActivityURL })
+        bot.user.setActivity({config.bot.activityType {name: config.bot.activityType, type: 0}})
       }
       else bot.user.setActivity(null)
       bot.user.setStatus(config.bot.status)
