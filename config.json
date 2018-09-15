@@ -11,7 +11,7 @@
     "prefix": "-",
     "status": "online",
     "activityType": "PLAYING",
-    "activityName": "",
+    "activityName": "News fetching",
     "streamActivityURL": "",
     "controllerIds": [""],
     "menuColor": 5285609,
