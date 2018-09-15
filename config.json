@@ -10,7 +10,7 @@
     "enableCommands": true,
     "prefix": "!",
     "status": "online",
-    "activityType": "Playing as",
+    "activityType": "game",
     "activityName": "God",
     "streamActivityURL": "",
     "controllerIds": [""],
