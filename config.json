@@ -10,7 +10,7 @@
     "enableCommands": true,
     "prefix": "-",
     "status": "online",
-    "activityType": 0,
+    "activityType": "PLAYING",
     "activityName": "News fetching",
     "streamActivityURL": "",
     "controllerIds": [""],
