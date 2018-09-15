@@ -10,7 +10,7 @@
     "enableCommands": true,
     "prefix": "-",
     "status": "online",
-    "activityType": "game",
+    "activityType": "Game",
     "activityName": "God",
     "streamActivityURL": "",
     "controllerIds": [""],
@@ -28,7 +28,7 @@
   "feeds": {
     "refreshTimeMinutes": 5,
     "checkTitles": false,
-    "timezone": "America/New_York",
+    "timezone": "Europe/Paris",
     "dateFormat": "ddd, D MMMM YYYY, h:mm A z",
     "dateLanguage": "en",
     "dateLanguageList": ["en"],
