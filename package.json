@@ -14,5 +14,5 @@
     "moment-timezone": "^0.5.11",
     "mongoose": "^5.0.2",
     "needle": "^1.6.0"
-  },
+  }
 }
