@@ -8,10 +8,10 @@
   "bot": {
     "token": "",
     "enableCommands": true,
-    "prefix": "~",
+    "prefix": "!",
     "status": "online",
-    "activityType": "",
-    "activityName": "",
+    "activityType": "Playing as",
+    "activityName": "God",
     "streamActivityURL": "",
     "controllerIds": [""],
     "menuColor": 5285609,
@@ -26,7 +26,7 @@
     "guildBackupsExpire": 7
   },
   "feeds": {
-    "refreshTimeMinutes": 15,
+    "refreshTimeMinutes": 5,
     "checkTitles": false,
     "timezone": "America/New_York",
     "dateFormat": "ddd, D MMMM YYYY, h:mm A z",
