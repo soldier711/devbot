@@ -1,13 +1,10 @@
 {
-  "name": "discord.rss",
+  "name": "devbot",
   "version": "3.0.0",
-  "description": "Discord RSS bot with customizable feeds",
+  "description": "Devbot is a discord bot. It can send news feed using rss and custom embed messages",
   "main": "index.js",
-  "author": "synzen",
+  "author": "GodlyPro",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/synzen/Discord.RSS/issues"
-  },
   "dependencies": {
     "cloudscraper": "^1.4.1",
     "discord.js": "^11.3.2",
@@ -18,8 +15,4 @@
     "mongoose": "^5.0.2",
     "needle": "^1.6.0"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/synzen/Discord.RSS.git"
-  }
 }
