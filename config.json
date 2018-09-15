@@ -19,7 +19,7 @@
     "commandAliases": {}
   },
   "database": {
-    "uri": "./sources",
+    "uri": "",
     "connection": {},
     "clean": false,
     "articlesExpire": 14,
