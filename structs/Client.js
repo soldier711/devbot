@@ -121,7 +121,7 @@ class Client {
   _initialize () {
     const bot = storage.bot
     if (this.configOverrides && this.configOverrides.setPresence === true) {
-      if (config.bot.activityType) bot.user.setPresence({ game: { name: 'config.bot.activityName', type: config.bot.activityType}})
+      if (config.bot.activityType) bot.user.setPresence({ game: { name: config.bot.activityName, type: config.bot.activityType}})
       else bot.user.setActivity(null)
       bot.user.setStatus(config.bot.status)
     }
