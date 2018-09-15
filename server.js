@@ -9,4 +9,4 @@ try {
   token = override.bot && override.bot.token ? override.bot.token : token
 } catch (err) {}
 
-drss.login(token)
+drss.login(process.env.BOT_TOKEN)
