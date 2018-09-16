@@ -7,5 +7,5 @@ module.exports = function (bot, message) {
   "footer": {
     "icon_url": "https://images.discordapp.net/avatars/411538973664608257/76b469f42b63792cfb05ca6c05ab612f.png?size=512",
     "text": "I like cookies"
-  }});
-};
+  }}})
+}
