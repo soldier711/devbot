@@ -1,6 +1,6 @@
 module.exports = function (bot, message) {
   if (message.content === '-mycustomcommand') message.channel.send('I saw your custom command!')
-  if (message.content === '-messageembed') message.channel.send({embed = {
+  if (message.content === '-messageembed') message.channel.send({embed : {
   "title": "title ~~(did you know you can have markdown here too?)~~",
   "description": "this supports [named links](https://discordapp.com) on top of the previously shown subset of markdown. ```\nyes, even code blocks```",
   "url": "https://discordapp.com",
@@ -45,6 +45,6 @@ module.exports = function (bot, message) {
       "inline": true
     }
   ]
-};
+  }});
 channel.send("this `supports` __a__ **subset** *of* ~~markdown~~ 😃 ```js\nfunction foo(bar) {\n  console.log(bar);\n}\n\nfoo(1);```", { embed });
-}
+};
