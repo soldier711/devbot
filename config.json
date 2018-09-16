@@ -11,7 +11,7 @@
     "prefix": "-",
     "status": "online",
     "activityType": "PLAYING",
-    "activityName": "News fetching",
+    "activityName": "News fetch | Hello World",
     "streamActivityURL": "",
     "controllerIds": [""],
     "menuColor": 5285609,
